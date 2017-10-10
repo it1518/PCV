@@ -84,6 +84,7 @@ public class Human {
     }
     
     
+    @Override
     public String toString(){
         return "Hello \n My name is " + this.name + "\n I´m " + this.getSex() + " I am " + this.age + " y.o. and I have " + this.height +" meters. \n My weight is " + this.weight + " kg and BMI: " + this.getBMI(); 
     }
